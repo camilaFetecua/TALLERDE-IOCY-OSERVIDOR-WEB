@@ -2,7 +2,6 @@ package co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample;
 
 import co.escuelaing.arep.TallerIOCyServidorWeb.HttpServer.HttpServer;
 
-import javax.imageio.IIOException;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.logging.Level;

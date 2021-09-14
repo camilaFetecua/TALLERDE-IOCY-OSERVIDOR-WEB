@@ -30,7 +30,7 @@ public class HttpServer {
     }
 
     public  void startServer(String[] args) throws IOException, URISyntaxException {
-        int port =35000;
+        int port =getPort();
         ServerSocket serverSocket = null;
         try {
             serverSocket = new ServerSocket(port);
@@ -197,6 +197,12 @@ public class HttpServer {
                         + " </body>"
                         + "</html>";
         return outputLine;
+    }
+    static int getPort() {
+        if (System.getenv("PORT") != null) {
+            return Integer.parseInt(System.getenv("PORT"));
+        }
+        return 35001;
     }
 }
 
