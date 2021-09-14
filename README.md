@@ -19,17 +19,14 @@ capacidades reflexivas de JAVA y permita por lo menos cargar un bean (POJO) y de
     
    Para ejecutar el ejecicio utilice los siguiente comandos:
    
-   Git clone ............
+   Git clone https://github.com/camilaFetecua/TALLERDE-IOCY-OSERVIDOR-WEB.git
    
    java -cp TallerIOCyServidorWeb-1.0-SNAPSHOT.jar  co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.WebAppStart
    co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.MathServices
     
-    
-   
-   
-    # Licencia
+   # Licencia
 
-  Para consultar la Licencia del proyecto haga [click aqui]()
+  Para consultar la Licencia del proyecto haga [click aqui](https://github.com/camilaFetecua/TALLERDE-IOCY-OSERVIDOR-WEB/blob/master/LICENSE)
   
   
 # Autor 
