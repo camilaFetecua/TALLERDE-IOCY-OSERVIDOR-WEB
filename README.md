@@ -1,5 +1,5 @@
 # TALLER DE ARQUITECTURAS DE SERVIDORES DE APLICACIONES, META PROTOCOLOS DE OBJETOS, PATRÓN IOC, REFLEXIÓN
-Taller AREP 2021-2 / 14 Septiembre del 2021
+## Taller AREP 2021-2 / 14 Septiembre del 2021
 
 Para este taller se debe construir un servidor Web (tipo Apache) en Java.El servidor debe ser capaz de entregar páginas html e imágenes tipo PNG. 
 Igualmente el servidor debe proveer un framework IoC para la construcción de aplicaciones web a partir de POJOS. Usando el servidor se debe construir una aplicación
@@ -19,10 +19,12 @@ capacidades reflexivas de JAVA y permita por lo menos cargar un bean (POJO) y de
     
    Para ejecutar el ejecicio utilice los siguiente comandos:
    
-   Git clone https://github.com/camilaFetecua/TALLERDE-IOCY-OSERVIDOR-WEB.git
+     Git clone https://github.com/camilaFetecua/TALLERDE-IOCY-OSERVIDOR-WEB.git
+     
+     java -cp TallerIOCyServidorWeb-1.0-SNAPSHOT.jar co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.WebAppStart co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.MathServices
+     
    
-   java -cp TallerIOCyServidorWeb-1.0-SNAPSHOT.jar  co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.WebAppStart
-   co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.MathServices
+    
     
    # Licencia
 
