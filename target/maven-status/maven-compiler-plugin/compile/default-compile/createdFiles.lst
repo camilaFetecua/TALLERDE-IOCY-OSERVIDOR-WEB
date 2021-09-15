@@ -1,7 +1,6 @@
-co\escuelaing\arep\TallerIOCyServidorWeb\Controller\Controller.class
-co\escuelaing\arep\TallerIOCyServidorWeb\NextSpring\GetMapping.class
-co\escuelaing\arep\TallerIOCyServidorWeb\WebAppExample\MathServices.class
-co\escuelaing\arep\TallerIOCyServidorWeb\App.class
 co\escuelaing\arep\TallerIOCyServidorWeb\WebAppExample\WebServices.class
+co\escuelaing\arep\TallerIOCyServidorWeb\Controller\MathServices.class
 co\escuelaing\arep\TallerIOCyServidorWeb\HttpServer\HttpServer.class
+co\escuelaing\arep\TallerIOCyServidorWeb\NextSpring\RequestMapping.class
+co\escuelaing\arep\TallerIOCyServidorWeb\NextSpring\Component.class
 co\escuelaing\arep\TallerIOCyServidorWeb\WebAppExample\WebAppStart.class

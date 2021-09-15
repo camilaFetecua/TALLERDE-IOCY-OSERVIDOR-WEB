@@ -1,21 +1,25 @@
-package co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample;
+package co.escuelaing.arep.TallerIOCyServidorWeb.Controller;
 
 
+import co.escuelaing.arep.TallerIOCyServidorWeb.NextSpring.Component;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Component
 
 public class MathServices {
-    @GetMapping("/square")
+    @RequestMapping("/square")
     public static Double square(String n){
         Double number=Double.valueOf(n);
         return number+number;
     }
 
-    @GetMapping(value="/PI")
+    @RequestMapping(value="/PI")
     public static Double PI(String n ){
         //Double number = Double.valueOf(n);
         return Math.PI;
     }
-    @GetMapping(value="/strlength")
+    @RequestMapping(value="/strlength")
     public static String length(String s ){
 
         return "The length of the string is:"+s.length();

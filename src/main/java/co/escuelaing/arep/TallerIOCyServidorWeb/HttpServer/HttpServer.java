@@ -1,6 +1,7 @@
 package co.escuelaing.arep.TallerIOCyServidorWeb.HttpServer;
 
-import co.escuelaing.arep.TallerIOCyServidorWeb.NextSpring.GetMapping;
+import co.escuelaing.arep.TallerIOCyServidorWeb.NextSpring.Component;
+import co.escuelaing.arep.TallerIOCyServidorWeb.NextSpring.RequestMapping;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -62,9 +63,8 @@ public class HttpServer {
             try {
                 c = Class.forName(component);
                 for(Method m: c.getDeclaredMethods()){
-                    if(m.isAnnotationPresent(GetMapping.class)){
-                        String uri = m.getAnnotation(GetMapping.class).value();
-                        System.out.println("loading service"+m+"with uri "+uri);
+                    if(m.isAnnotationPresent(RequestMapping.class)){
+                        String uri = m.getAnnotation(RequestMapping.class).value();
                         services.put(uri,m);
                     }
                 };

@@ -1,10 +1,13 @@
 package co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample;
 
-import co.escuelaing.arep.TallerIOCyServidorWeb.NextSpring.GetMapping;
+import co.escuelaing.arep.TallerIOCyServidorWeb.NextSpring.Component;
+import co.escuelaing.arep.TallerIOCyServidorWeb.NextSpring.RequestMapping;
 
+@Component
 public class WebServices {
-    @GetMapping("/fecha")
-    public static String date(String s){
+    @RequestMapping("/fecha")
+    public static String fecha(String s){
+
         return java.time.LocalTime.now().toString();
     }
 }

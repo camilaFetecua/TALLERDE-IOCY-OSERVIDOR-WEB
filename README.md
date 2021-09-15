@@ -22,7 +22,7 @@ capacidades reflexivas de JAVA y permita por lo menos cargar un bean (POJO) y de
    Git clone https://github.com/camilaFetecua/TALLERDE-IOCY-OSERVIDOR-WEB.git
    
    java -cp TallerIOCyServidorWeb-1.0-SNAPSHOT.jar  co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.WebAppStart
-   co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.MathServices
+   co.escuelaing.arep.TallerIOCyServidorWeb.Controller.MathServices
     
    # Licencia
 
