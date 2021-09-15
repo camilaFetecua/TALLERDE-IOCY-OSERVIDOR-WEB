@@ -24,8 +24,7 @@ capacidades reflexivas de JAVA y permita por lo menos cargar un bean (POJO) y de
      java -cp TallerIOCyServidorWeb-1.0-SNAPSHOT.jar co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.WebAppStart co.escuelaing.arep.TallerIOCyServidorWeb.WebAppExample.MathServices
      
    
-    
-    
+  
    # Licencia
 
   Para consultar la Licencia del proyecto haga [click aqui](https://github.com/camilaFetecua/TALLERDE-IOCY-OSERVIDOR-WEB/blob/master/LICENSE)
